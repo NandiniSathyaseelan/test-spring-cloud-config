@@ -1,7 +1,7 @@
 spring:
       profiles: local
          datasource: 
-            url: "jdbc:mysql://localhost:3306/testStudentsDbOne?useSSL=false"
+            url: jdbc:mysql://localhost:3306/testStudentsDbOne?useSSL=false
             username: student1
             password: student1
 
