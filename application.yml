@@ -1,17 +1,9 @@
 spring:
       profiles: local
-      multitenancy:
             datasources: 
-                - 
-                  tenantId: tenant_1
                   url: "jdbc:mysql://localhost:3306/testStudentsDbOne?useSSL=false"
                   username: student1
                   password: student1
-                - 
-                  tenantId: tenant_2
-                  url: "jdbc:mysql://localhost:3306/testStudentsDbTwo"
-                  username: student2
-                  password: student2
 
       jpa: 
           hibernate:
