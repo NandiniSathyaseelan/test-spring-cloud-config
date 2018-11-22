@@ -2,7 +2,7 @@ course = TESTTTTTTTTTTTTTTTTT
 
 spring: 
   datasource:
-    url: jdbc:mysql://localhost:3306/testStudentsDbOne?useSSL=false
+    url: "jdbc:mysql://localhost:3306/testStudentsDbOne?useSSL=false"
     username: student1
     password: student1
     driver-class-name: com.mysql.cj.jdbc.Driver
