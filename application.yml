@@ -2,9 +2,9 @@ course : TESTTTTTTTTTTTTTTTTT
 
 spring: 
   datasource:
-    url: "jdbc:mysql://localhost:3306/testStudentsDbOne?useSSL=false"
-    username: student1
-    password: student1
+    url: "jdbc:mysql://localhost:3306/testStudentsDbTwo?useSSL=false"
+    username: student2
+    password: student2
     driver-class-name: com.mysql.cj.jdbc.Driver
     initialization-mode: always
   jpa:
