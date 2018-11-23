@@ -4,7 +4,7 @@ spring:
   datasource:
     url: "jdbc:mysql://localhost:3306/testStudentsDbTwo?useSSL=false"
     username: student2
-    password: {cipher}41b27f756dd3328e429a8e27b3f2e7f4cb451f0b45973c78c7eb46e0a4544903
+    password: "{cipher}41b27f756dd3328e429a8e27b3f2e7f4cb451f0b45973c78c7eb46e0a4544903"
     driver-class-name: com.mysql.cj.jdbc.Driver
     initialization-mode: always
   jpa:
