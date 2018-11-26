@@ -4,7 +4,7 @@ spring:
   datasource:
     url: "jdbc:mysql://localhost:3306/testStudentsDbTwo?useSSL=false"
     username: student2
-    password: "{cipher}AQBrQYKpr7Fh70aHmJ6ubKLdPx0m9X9vgtegRx3oX8qd0OR9bCf8tC4MHj/IRbDtU6DW/LMg0Tdf6VdUkh/ewaRMk5Ja40Pu+9CitgXidesLe9dxf/BTKmsCmZJN28XbJHzbEKIF+xTl3IAx00fXA4jEdnEkSlGvja2kNioaZSWk7499RguJkJfo+djIz35fjA9nq6uA3XdCXzqut6i4FYGAnBoghMVE5LQN/+9cSOWxxrlSZkGoN7ABk5yxYlKHG4Ke+jkCfIWkswFG72cAv+p5VKjmIc1lu1+0xCAfjd6Hzfmz5pi9ufhyuhEfNJm2tZVKWfDfbBUQ4NfgixSKsu9oI5wb31WwTckuZQyLsh635RKZSXRPe99XURohb2g9bl4="
+    password: "{cipher}AQBuufVU3YA+i05EXDUub/TlBn6aehRCO0CM66WUMWd3hLqvK+vSeaxJICKhwo/tKKax7+GNBgBURJDJDv1mGd74dOeqQcacn96+sms0DCdTR4brAEq6JN1lhYYs8Rq5iP6xzITbXjG/aNmYQTNaHH9Agh23n1I/aNjrOx3i8TVbRBb4QjHJEhEp3yukEl0Nxk2a67wjVAIK88gbRHx8Tnz4y6y52Yz4SX4fDhJeo3s9tW6wejUtPPr8Y52Zv8GmBOJMVme7xrUYUU8tRZrcTp6XnrhOpwb6XbHEQrHAfuBV26nx1HaK/oIEdqsOsYPlSpAqTRPMy+LWXTg9y6GF6EaJvCi/T/d5RsdnAM8MheiNr77SzWw1/sUuK4+88WdiRGs="
     driver-class-name: com.mysql.cj.jdbc.Driver
     initialization-mode: always
   jpa:
