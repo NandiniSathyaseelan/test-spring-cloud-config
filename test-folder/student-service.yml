@@ -1,0 +1,16 @@
+course : ABCDEFRRRR
+
+spring: 
+  datasource:
+    url: "jdbc:mysql://localhost:3306/testStudentsDbTwo?useSSL=false"
+    username: student2
+    password: "{cipher}AQAk3m0hr5awr6+ehIjb+c1n8xKqgBTiNP+BdbWpDbxtK90AJaXbUueq/eQfQHc6YMd6oCssJdWPkBrnPOmwVoGObpailEZYwf+DqORONeqo9S82qgxt2KlxD+d312Pk1LwFiZVS7vd748D652ZpBPW6fM2CUBukkmF3mMAfaeuzL7zA3Ca6nue4XUrzAMem4d7+DP1iRkYFYm793pG9o0fP50yHoOAgX1rGjIlJIj/rAU2/8ZS4fOyAH2D4xcfhCS2OFxwvG2eevERmBJXDPix6tTMJEEM84SGOuAl1jQrco2+2azGj7Rbtk1V7G6RfY/wudza1hjuy0H+fmQ+Q5HzMwewUEiVSSCudlNRbMcwLM/0Xg2YQQvEQ6+eR7AmFnWs="
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    initialization-mode: always
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    generate-ddl: true
+    show-sql: true
+    open-in-view: false
