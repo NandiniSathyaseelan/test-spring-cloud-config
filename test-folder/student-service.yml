@@ -2,9 +2,9 @@ course : ABCDEFRRRR
 
 spring: 
   datasource:
-    url: "jdbc:mysql://localhost:3306/testStudentsDbOne?useSSL=false"
-    username: student1
-    password: "{cipher}AQCa5rmBhRb+4fDW8kgJjAxGhVtXs4+KPeUdNi+maU2Bm58OQlbGB0BzejJ47ru8bPt/vM694S3Wx7cimU6cf8ECE54DvM+ch80v3dlCilh6BT2ZiS33C8nLBZOVtuJyJv3852f6A5FaCPz5knylDZ4PcEAGdsb7WCn1KqWJjzb++oMdEA/Lk0/ou06DoCvdA0l7e0P+tBWtpP3nTV9FMWXwQ/qrOVKuBlleIiyWePHMOIsEcmURBt78mMlGmhn7Lp4EnIaBMZDvm3DPMcwlI9OI3keAu+NcVUK1qXov7fkPwyx4U8BTyrH5v6P1G8EFh0rMmRWqKS3CpfVzs5nklg7MbDK3qjdmSrRQoZjuHegPGDHHOkmXGecQ93l4XjT8drI="
+    url: "jdbc:mysql://localhost:3306/testStudentsDbTwo?useSSL=false"
+    username: student2
+    password: "{cipher}AQAi1mK30KKP3wXLHzHZeT3Vxqj+782kDWhJq27cqJyqyDsZz1/oicFscM0Jf+1jLmi7gY/YfvLQE9BoKX+L8Gu0y+LDfkAEa0Oo7ZVo6qR+RYmcXtu3fU7PDVhS0wLgjTmSdXbPnDn9RbKUlaRJgEeUsxH4BUQg2FVNmJSXmtxWhcLFodia5aX2Pq3D0DMbHJQCg+ORb3D3/4sGArrqaj1MF+3VCKdSy+tLOWGp7bx9dY0wQl55bQy9I9ctJXCCPY/+0QwkK7gv2d6tC7/qvql0WwaF8HDuhFNGyo1Xd3WVI04l+pfI2HsLox3gGYVdyBspOTA+zs1XV8MbizcN5lq5iZUf3dhM9rTrHTnfIcDFuJoC6vLfATCCJGDBqBKVbLE="
     driver-class-name: com.mysql.cj.jdbc.Driver
     initialization-mode: always
   jpa:
